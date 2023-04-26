@@ -73,7 +73,7 @@ chatContainer.ScrollTop = chatContainer.scrollHeight;
 const messageDiv = document.getElementById(uniqueId);
 loader(messageDiv);
 
-const response = await fetch('https://fize.onrender.com', {
+const response = await fetch('https://fize.onrender.com/', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
